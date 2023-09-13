@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <link crossorigin="anonymous" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css"
+        integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="leaflet.css">
+    <link rel="stylesheet" href="pic3jvl.css">
+    <link rel="stylesheet" href="solid.css">
+    <link rel="stylesheet" href="styles__ltr.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tiny-slider.css">
+    <link rel="stylesheet" href="style2.css">
+
+<link rel="stylesheet" href="https://lowpricemiamitours.com/vistas/assets/css/bootstrap-datepicker.standalone.min.css">
+   
+
+    <style>
+        .inputc {
+        appearance: none;
+        block-size: 63px;
+        border-block-end-color: rgb(50, 50, 50);
+        border-block-end-style: solid;
+        border-block-end-width: 1px;
+        border-block-start-color: rgb(50, 50, 50);
+        border-block-start-style: solid;
+        border-block-start-width: 1px;
+        border-inline-end-color: rgb(50, 50, 50);
+        border-inline-end-style: solid;
+        border-inline-end-width: 1px;
+        border-inline-start-color: rgb(50, 50, 50);
+        border-inline-start-style: solid;
+        border-inline-start-width: 1px;
+        caret-color: rgb(40, 40, 40);
+        color: rgb(40, 40, 40);
+        column-rule-color: rgb(40, 40, 40);
+        display: block;
+        float: left;
+        font-family: AZDS-reservation-form-main, AZDS-main, GT-Walsheim-light, serif;
+        font-size: 12.48px;
+        font-variant: small-caps lining-nums;
+        font-variant-caps: small-caps;
+        font-variant-numeric: lining-nums;
+        height: 63px;
+        inline-size: 253.188px;
+        letter-spacing: 0.3px;
+        line-height: 14.976px;
+        padding-block-end: 7px;
+        padding-block-start: 8px;
+        padding-inline-end: 0px;
+        padding-inline-start: 16px;
+        perspective-origin: 126.594px 31.5px;
+        pointer-events: all;
+        text-align: left;
+        text-decoration: none solid rgb(40, 40, 40);
+        text-emphasis-color: rgb(40, 40, 40);
+        text-size-adjust: 100%;
+        text-transform: uppercase;
+        transform-origin: 126.594px 31.5px;
+        user-select: none;
+        width: 253.188px;
+        background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+        border: 1px solid rgb(50, 50, 50);
+        outline: rgb(40, 40, 40) none 0px;
+        padding: 8px 0px 7px 16px;
+        margin: 10px;
+    }/*#step-1-promo*/
+  
+
+    .selectc {
+    block-size: 14.9688px;
+    bottom: 23.0156px;
+    box-sizing: border-box;
+    caret-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    font-family: AZDS-reservation-form-main, AZDS-main, GT-Walsheim-light, serif;
+    font-size: 12.48px;
+    font-variant: small-caps lining-nums;
+    font-variant-caps: small-caps;
+    font-variant-numeric: lining-nums;
+    font-weight: 500;
+    height: 14.9688px;
+    inline-size: 509.516px;
+    inset-block-end: 23.0156px;
+    inset-block-start: 23.0156px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    letter-spacing: 0.3px;
+    line-height: 14.976px;
+    opacity: 0;
+    padding-inline-end: 50px;
+    padding-inline-start: 10px;
+    perspective-origin: 254.75px 7.48438px;
+    pointer-events: all;
+    position: absolute;
+    right: 0px;
+    text-align: left;
+    text-indent: 0.01px;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    top: 23.0156px;
+    transform-origin: 254.758px 7.48438px;
+    user-select: none;
+    white-space: nowrap;
+    width: 509.516px;
+    padding: 0px 50px 0px 10px;
+}/*#DIV_1*/
+    
+
+.btnc {
+    appearance: none;
+    background-position: 0px 0px;
+    block-size: 60.5938px;
+    border-block-end-color: rgb(82, 124, 129);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(82, 124, 129);
+    border-block-start-style: solid;
+    border-block-start-width: 1px;
+    border-inline-end-color: rgb(82, 124, 129);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(82, 124, 129);
+    border-inline-start-style: solid;
+    border-inline-start-width: 1px;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-variant-caps: small-caps;
+    height: 60.5938px;
+    inline-size: 511.516px;
+    letter-spacing: 1px;
+    margin-block-start: 12px;
+    padding-block-end: 15px;
+    padding-block-start: 16px;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    perspective-origin: 255.75px 30.2969px;
+    pointer-events: all;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    transform-origin: 255.758px 30.2969px;
+    user-select: none;
+    width: 511.516px;
+    background: rgb(82, 124, 129) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 1px solid rgb(82, 124, 129);
+    font: small-caps 300 23px / 27.6px AZDS-main, GT-Walsheim, serif;
+    margin: 12px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 16px 20px 15px;
+}/*#BUTTON_1*/
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar greedy is-fixed-top nav--main" id="js-navbar--main">
+
+        <div class="container-fluid flex-nowrap">
+            <a class="navbar-brand" href="/">
+                <span class="nav__logo" data-live-edit-settings="hotel_settings" data-live-edit-settings-field="logo"
+                    data-live-editable-type="image">
+                    <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1666375789/nbt9festoqtdpq1dw6qn.png"
+                        alt="The Elser Hotel White@300x">
+                </span>
+            </a>
+            <ul class="main-nav">
+                <li class="nav__item">
+                    <a class="nav__link" href="/rooms/" target="" rel="noopener">Tours & Activities<span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav__item">
+
+                    <a class="nav__link" href="/offers/" target="" rel="noopener">Big Bus</a>
+
+                </li>
+
+                <li class="nav__item">
+
+                    <a class="nav__link" href="/dining/" target="" rel="noopener">Key West</a>
+
+                </li>
+
+                <li class="nav__item">
+
+                    <a class="nav__link" href="/location/" target="" rel="noopener">Car Rental</a>
+
+                </li>
+
+                <li class="nav__item">
+
+                    <a class="nav__link" href="/events/" target="" rel="noopener">Amenities</a>
+
+                </li>
+
+            </ul>
+            <a role="button" aria-label="menu" aria-expanded="false" data-target="navMenu" class="navbar__burger">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+            <div class="nav-device">
+                <ul class="nav-device__wrap">
+
+                    <li class="nav-device__item">
+                        <a href="/rooms/" class="nav-device__link">Tours & Activities</a>
+                    </li>
+
+                    <li class="nav-device__item">
+                        <a href="/offers/" class="nav-device__link">Big Bus</a>
+                    </li>
+
+
+                    <li class="nav-device__item">
+                        <a href="/location/" class="nav-device__link">Key West</a>
+                    </li>
+
+                    <li class="nav-device__item">
+                        <a href="/dining/" class="nav-device__link">Car Rental</a>
+                    </li>
+
+                    <li class="nav-device__item">
+                        <a href="/gallery/" class="nav-device__link">Amenities</a>
+                    </li>
+ 
+
+                </ul>
+            </div>
+
+            <div class="flex-shrink-0" style="line-height: 0; order:4;">
+                <!-- <a href="https://be.synxis.com/?Chain=10237&Hotel=40264&level=hotel" ttweb-component="BookingWidgetButton" target="_blank" class="booknow-btn" type="button" name="button"><span class="d-none d-md-block">Book Now</span><span class="d-md-none">Book</span></a> -->
+
+                <a href="#" ttweb-component="BookingWidgetButton" class="booknow-btn" type="button"
+                    name="button"><span class="d-none d-md-block"><i class="fa fa-shoping-cart"></i>Buy Now</span><span class="d-md-none">Buy</span></a>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+<br>
+<br>
+
+
+
+ 
+     
+
+
+<section class="home-amenities pattern-light">
+    <div class="home-amenities__container">
+      <div class="home-amenities__row">
+        <div class="home-amenities__content">
+          <div class="home-amenities__content__inner">
+            <div id="tt-region-amenities_overline" class="tt-region" data-region="en/index.html/amenities_overline.json" data-region-type="header" data-region-classes=""><div class="tt-region_ped" data-ped-index="0" data-ped-type="header" tabindex="0">
+            <h3 class="h4">MIAMI DOUBLE DECKER + BOAT</h3>
+            </div></div> 
+            <div id="tt-region-amenities_title" class="tt-region" data-region="en/index.html/amenities_title.json" data-region-type="header" data-region-classes="">
+                <div class="tt-region_ped" data-ped-index="0" data-ped-type="text" tabindex="0">
+                 <input class="inputc" type="text" placeholder="Select Date" name="" id="datepicker">
+                 <select name="shotel" id="shotel" class="form-control valid inputc" required="">
+                    <option value="0">Select Meeting Point</option>
+                    <option value="THE ELSER HOTEL MIAMI">THE ELSER HOTEL MIAMI</option>  
+                   <option value="YVE HOTEL 146 BISCAYNE BLVD">YVE HOTEL 146 BISCAYNE BLVD</option>
+                                            
+                </select>
+              
+           
+                <div class="promo-wrap">
+                    <div class="row">
+                        <div class="col-6">
+                            <select name="shotel"  class="form-control valid inputc " required="">
+                                <option value="1">1 Adult</option>
+                                <option value="2">2 Adult</option>
+                                <option value="3">3 Adult</option>
+                                <option value="4">4 Adult</option>
+                                <option value="5">5 Adult</option>
+                                <option value="6">6 Adult</option>
+                                <option value="7">7 Adult</option>
+                                <option value="8">8 Adult</option>
+                                <option value="9">9 Adult</option>
+                                <option value="10">10 Adult</option>
+                            </select>
+                        </div>
+                       
+                        <div class="col-8">
+                            <select name="shotel"  class="form-control valid inputc" required="">
+                                <option value="0">0 Child</option>
+                                <option value="1">1 Child</option>
+                                <option value="2">2 Child</option>
+                                <option value="3">3 Child</option>
+                                <option value="4">4 Child</option>
+                                <option value="5">5 Child</option>
+                                <option value="6">6 Child</option>
+                                <option value="7">7 Child</option>
+                                <option value="8">8 Child</option>
+                                <option value="9">9 Child</option>
+                                
+                            </select>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div id="pick" style="display: none;">
+                <p style="color: crimson;">Restrictions Apply!</p>
+                <p>PICK UP:Outside the Hotel.<span style="color: red">*</span>Choose your desired pick up time:</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <p>9:00 am</p> 
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <p>10:00 am</p> 
+                  </div>
+                 
+                  <a href="pay.html" ttweb-component="BookingWidgetButton" class="booknow-btn" type="button" name="button"><span class="reserve-box-btn calendar-complete b-main-bcolor ng-star-inserted d-none d-md-block btnc"><i class="fa fa-shoping-cart"></i>Buy Now</span><span class="d-md-none">Buy</span></a>
+            </div>
+            
+
+                </div></div>
+          </div>
+          <div class="slider-controls">
+            <a href="JavaScript:void(0)" class="prev-slide" id="" title="Previous slide" tabindex="-1" data-controls="prev" aria-label="previous">
+              <img src="//res.cloudinary.com/traveltripperweb/raw/upload/v1671520104/otb7fh6eohhesuprerq4.svg" alt="left arrow">
+            </a>
+            <a href="JavaScript:void(0)" class="next-slide" id="" title="Next slide" tabindex="-1" data-controls="next" aria-label="next">
+              <img src="//res.cloudinary.com/traveltripperweb/raw/upload/v1671519973/xatq3cxeouamovm4sxh2.svg" alt="right arrow">
+            </a>
+          </div>
+        </div>
+        <div class="home-amenities__slider">
+          <div class="tns-outer" id="tns3-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">4 to 5.4</span>  of 5</div><div id="tns3-mw" class="tns-ovh"><div class="tns-inner" id="tns3-iw"><div class="amenities-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns3" aria-live="polite" aria-atomic="true" style="transform: translate3d(-53.3333%, 0px, 0px); transition-duration: 0s;">
+            <div class="home-amenities__slider__item tns-item" aria-hidden="true" tabindex="-1" aria-roledescription="slide" role="group">
+              <img src="https://lowpricemiamitours.com/backend/vistas/img/portafolio/slide/2/1.jpg" alt="Amenities - Apartment Style Accomodations">
+            </div>
+            <div class="home-amenities__slider__item tns-item" aria-hidden="true" tabindex="-1" aria-roledescription="slide" role="group">
+                <img src="https://lowpricemiamitours.com/backend/vistas/img/portafolio/slide/2/2.jpg" alt="Amenities - Apartment Style Accomodations">
+              </div>
+              <div class="home-amenities__slider__item tns-item" aria-hidden="true" tabindex="-1" aria-roledescription="slide" role="group">
+                <img src="https://lowpricemiamitours.com/backend/vistas/img/portafolio/slide/2/3.jpg" alt="Amenities - Apartment Style Accomodations">
+              </div>
+              <div class="home-amenities__slider__item tns-item" aria-hidden="true" tabindex="-1" aria-roledescription="slide" role="group">
+                <img src="https://lowpricemiamitours.com/backend/vistas/img/portafolio/slide/2/4.jpg" alt="Amenities - Apartment Style Accomodations">
+              </div>
+            </div></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <footer>
+    
+    
+    <div class="footer">
+      <div class="footer__top">
+        <div class="footer__top__logo">
+          <a href="/">
+            <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1666375789/nbt9festoqtdpq1dw6qn.png" alt="The Elser">
+          </a>
+        </div>
+        <p class="mb-1">
+          <a href="https://maps.google.com/?cid=9790359165807276299" target="_blank">398 NE 5th St.,<span class="break"> Miami, FL 33132</span></a>
+        </p>
+        <p class="phone-email mb-2"><a href="tel:1-833-228-1576">1-833-228-1576</a></p>
+        <p class="social"><a href="https://instagram.com/theelserhotelmiami" target="_blank" aria-label="Follow us on Instagram" title="Facebook"><i class="fab fa-instagram"></i></a> <a href="https://facebook.com/theelserhotelmiami" target="_blank" aria-label="Follow us on Facebook" title="Instagram"><i class="fab fa-facebook"></i></a></p>
+      </div>
+    
+     
+    
+      
+      <div class="footer__bottom">
+       
+        </a><a style="padding:0px;" href="https://www.conciergehotline.net/" class="logo-item right" target="_blank"><img src="https://www.conciergehotline.net/img/logo_concierge.png" alt="Highgate"></a>
+       <!-- <a href="/accessibility/" class="logo-item left"><img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1623756367/ztqdangejsw0jcru5rlc.png" alt="ADA Compliance"></a>-->
+      </div>
+      
+      <div class="container">
+        <p class="copyrights">© 2023 The Elser Hotel &amp; Residences Miami</p>
+      </div>
+    </div>
+    
+    
+    
+      </footer>
+
+<script src="glide.js"></script>
+      <script src="tiny-slider.js"></script>
+    <script src="main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+  integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+  crossorigin="anonymous"></script>
+  <script src="https://lowpricemiamitours.com/vistas/assets/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#shotel").change(function(){
+                $("#pick").css("display","block");
+            })
+
+            $( "#datepicker" ).datepicker();
+        })
+    </script>
+</body>
+
+</html>
