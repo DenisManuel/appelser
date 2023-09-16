@@ -1,50 +1,31 @@
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
-
-
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elser Hotel | Hotline Concierge</title>
 
-
-
-  
-    <script type="text/javascript">
-  var _gaq = _gaq || [];
+<script type="text/javascript">
+  /*var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '']);
   _gaq.push(['_trackPageview']);
-
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  })();*/
 </script>
 
-  
-  
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+/*(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NX4NPBH');</script>
-  
-  
-
-
+})(window,document,'script','dataLayer','GTM-NX4NPBH');*/
+</script>
 
 <!-- begin _includes/seo.html -->
-
-
-
-
-
-
-<title>Elser Hotel | Luxury Hotel in Heart of Downtown Miami</title>
-
-
-
 
 <meta name="description" content="The Elser Hotel &amp; Residences, located in downtown Miami’s vibrant Biscayne Bay, is your luxury hotel destination with 49 stories &amp; well-appointed amenities.">
 <meta property="og:description" content="The Elser Hotel &amp; Residences, located in downtown Miami’s vibrant Biscayne Bay, is your luxury hotel destination with 49 stories &amp; well-appointed amenities.">
@@ -52,27 +33,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:site_name" content="Elser Hotel | Luxury Hotel in Heart of Downtown Miami">
 <meta property="og:title" content="Elser Hotel | Luxury Hotel in Heart of Downtown Miami">
 
-
-  <link rel="canonical" href="https://www.theelsermiami.com//"/>
-  <meta property="og:url" content="https://www.theelsermiami.com//">
-
-
-
-
-
-  
-
-  
-
-
-
-  <meta property="og:image" content="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1661513593/iascktgqj2wlud1wf60h.jpg">
-
-
-
+<link rel="canonical" href="https://www.theelsermiami.com//"/>
+<meta property="og:url" content="https://www.theelsermiami.com//">
+<meta property="og:image" content="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1661513593/iascktgqj2wlud1wf60h.jpg">
 
 <script type="application/ld+json">
-  {
+  /*{
     "@context": "http://schema.org",
     "@type": "WebSite",
     "@id": "https://www.theelsermiami.com//#website",
@@ -83,11 +49,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "target": "https://www.theelsermiami.com//?s={search_term_string}",
       "query-input": "required name=search_term_string"
     }
-  }
+  }*/
 </script>
 
-
-<script type="application/ld+json">{
+<script 
+type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Hotel",
   "name": "The Elser Hotel & Residences",
