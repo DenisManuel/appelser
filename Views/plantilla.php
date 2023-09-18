@@ -3,7 +3,11 @@
 <html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta http-equiv="Content-Language" content="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>Elser Hotel | Hotline Concierge</title>
 
 <script type="text/javascript">
@@ -26,7 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 <!-- begin _includes/seo.html -->
-
+<!--
 <meta name="description" content="The Elser Hotel &amp; Residences, located in downtown Miami’s vibrant Biscayne Bay, is your luxury hotel destination with 49 stories &amp; well-appointed amenities.">
 <meta property="og:description" content="The Elser Hotel &amp; Residences, located in downtown Miami’s vibrant Biscayne Bay, is your luxury hotel destination with 49 stories &amp; well-appointed amenities.">
 <meta property="og:locale" content="en">
@@ -35,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="canonical" href="https://www.theelsermiami.com//"/>
 <meta property="og:url" content="https://www.theelsermiami.com//">
-<meta property="og:image" content="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1661513593/iascktgqj2wlud1wf60h.jpg">
+<meta property="og:image" content="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1661513593/iascktgqj2wlud1wf60h.jpg">-->
 
 <script type="application/ld+json">
   /*{
@@ -52,8 +56,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }*/
 </script>
 
-<script 
-type="application/ld+json">{
+<script type="application/ld+json">
+  /*{
   "@context": "https://schema.org",
   "@type": "Hotel",
   "name": "The Elser Hotel & Residences",
@@ -110,40 +114,28 @@ type="application/ld+json">{
     {"@type":"BarorPub",
     "name":"The Pool Deck",
     "url":"https://www.theelserhotel.com/dining/"}]
-}
+}*/
 </script>
 
+<script type="application/ld+json">
+  /*{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://www.theelsermiami.com/",
+    "logo": "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1661513593/iascktgqj2wlud1wf60h.jpg"
+  }*/
+</script>
 
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": "https://www.theelsermiami.com/",
-      "logo": "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1661513593/iascktgqj2wlud1wf60h.jpg"
-    }
-  </script>
-
-
-
-
-<meta http-equiv="Content-Language" content="en">
-<link rel="alternate" hreflang="en" href="https://www.theelsermiami.com//">
-
-  
-
-
+<script>
+  //document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
 <!-- end _includes/seo.html -->
 
 
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
+
+<link rel="alternate" hreflang="en" href="https://www.theelsermiami.com//">
 
 <link rel="stylesheet" href="https://plugins.traveltripper.io/tns/2.9.2-pegs2/tiny-slider.css">
 
@@ -155,10 +147,10 @@ type="application/ld+json">{
 <link href='/favicon.ico' rel='shortcut icon' type='image/png'>
 <meta name="facebook-domain-verification" content="r97xmk6vmambmia3q65xbgjvsaes1w" />
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LfzHawiAAAAACKc2CnXIVdBEWvpaL1pPxEx0ySw"></script>
+<!--<script src="https://www.google.com/recaptcha/api.js?render=6LfzHawiAAAAACKc2CnXIVdBEWvpaL1pPxEx0ySw"></script>-->
 
 <script type="text/javascript">
-  function onSignupSubmit() {
+  /*function onSignupSubmit() {
     document.getElementById("signupLoader").style.display = "flex";
     grecaptcha.ready(function() {
       grecaptcha.execute('6LfzHawiAAAAACKc2CnXIVdBEWvpaL1pPxEx0ySw', { action: 'submit'}).then(function(token) {
@@ -166,7 +158,7 @@ type="application/ld+json">{
           document.getElementById("captchaForm").submit();
       });
     });
-  }
+  }*/
 
 </script>
 
@@ -175,14 +167,14 @@ Start of global snippet: Please do not remove
 Place this snippet between the <head> and </head> tags on every page of your site.
 -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=DC-13591657"></script>
-<script>
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=DC-13591657"></script>-->
+<!--<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'DC-13591657');
-</script>
+</script>-->
 <!-- End of global snippet: Please do not remove -->
 
 
